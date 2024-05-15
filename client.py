@@ -1,4 +1,4 @@
-from utils import file_handler, serializer, encrypter
+from utils import file_handler, serialiser, encrypter
 import sys
 import requests
 
@@ -28,13 +28,13 @@ try:
     # Ask user to select serialisation format
     serialisation_format = input("Enter 1 to convert to JSON, 2 to convert to BINARY, or 3 to convert XML: ") 
     if serialisation_format == "1": # Convert dictionary to JSON
-        serialised_data = serializer.dictionary_to_json(my_dict)
+        serialised_data = serialiser.dictionary_to_json(my_dict)
         serialisation_format = "JSON"
     elif serialisation_format == "2": # Convert dictionary to binary
-        serialised_data = serializer.dictionary_to_binary(my_dict)
+        serialised_data = serialiser.dictionary_to_binary(my_dict)
         serialisation_format = "BINARY"
     elif serialisation_format == "3": # Convert dictionary to XML
-        serialised_data = serializer.dictionary_to_xml(my_dict)
+        serialised_data = serialiser.dictionary_to_xml(my_dict)
         serialisation_format = "XML"
     else:
         # Handle invalid format input
@@ -66,9 +66,9 @@ except Exception as e:
 
 try:
     # Send serialised data and file content to the server
-    response = requests.post(
-        server_url,
-        json={
+    response = requests.post( 
+        server_url+"/data",
+        data={
             "payload": serialised_data,
             #"encyption_key": encryption_key,
             "payload_format": serialisation_format
@@ -78,6 +78,16 @@ try:
         # },
         timeout=60
     )
+    response = requests.post( 
+        server_url+"/file",
+        headers={
+            "encryption_key": encryption_key,
+        },
+        data={
+            "file_content": file_content_to_send
+        },
+        timeout=60
+    ) 
 except Exception as e:
     # Handle error while sending data to server
     print("Error while sending to server"+ str(e))

@@ -1,0 +1,1 @@
+{'artist_name': 'Rihanna', 'real_name': 'Robyn Rihanna Fenty', 'nationality': 'Barbadian', 'age': '36'}
