@@ -53,7 +53,7 @@ async def root_post(request: Request):
         print(raw_dictionary)
 
     if print_or_save in ["save", "both"]:
-        fh.write("server_file.txt", str(raw_dictionary))
+        fh.write("server_file_dict.txt", str(raw_dictionary))
 
 # Define endpoint for receiving files
 @app.post("/file")
@@ -68,7 +68,12 @@ async def root_file(request: Request):
         encryption_key = encryption_key.encode()
         file_content = file_content.encode()
         file_content = encrypter.decrypt(file_content, encryption_key)
-    print(file_content, type(file_content)) # ##Missing some code (hacer lo mismo del endpoint de arrible line 43-47)
+
+    if print_or_save in ["print", "both"]:
+        print(file_content)
+
+    if print_or_save in ["save", "both"]:
+        fh.write("server_file_text.txt", str(file_content))
 
 # Run the FastAPI app 
 if __name__ == "__main__":
