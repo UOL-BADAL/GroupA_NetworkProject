@@ -1,0 +1,14 @@
+
+utils/
+├── encrypter.py
+├── file_handler.py
+├── serialiser.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── client.py
+├── client_file.txt
+├── requirements.txt
+├── server.py
+├── server_file_dict.txt
+└── server_file_text.txt
