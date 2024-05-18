@@ -7,10 +7,10 @@ Welcome to the Client/Server Network System project! This project demonstrates a
 
 
 ## Participants:
-- Azhar Shaheer Badal
-- Chit Wui Lam
-- Caitlin Jane Eldridge
-- Jose Arturo Vega Lopez
+- Azhar Shaheer Badal(Software Architect)
+- Chit Wui Lam(Tester)
+- Caitlin Jane Eldridge(Project Manager)
+- Jose Arturo Vega Lopez(Software Engineer)
 
 ## Features
 
