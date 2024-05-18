@@ -66,7 +66,13 @@ Welcome to the Client/Server Network System project! This project demonstrates a
 ## Testing
 
 - **Unit Tests**: Ensure the correctness of individual components.
+
+  ![919ab979-08e4-4398-be5c-5f577b3d4140](https://github.com/UOL-BADAL/GroupA_NetworkProject/assets/167023997/fdb230e0-27f9-4b4b-b60f-7aa25264de28)
+
 - **Feature Tests**: Validate the end-to-end functionality of the system.
+
+<img width="392" alt="Screenshot 2024-05-18 at 8 12 09 PM" src="https://github.com/UOL-BADAL/GroupA_NetworkProject/assets/167023997/9faf2db9-290d-4b2d-83c9-d1733739b689">
+
 
 5. Run the tests using:
    ```bash
