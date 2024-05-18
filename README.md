@@ -1,4 +1,4 @@
-# GroupA_NetworkProject-CSCK541 Software Development in Practice March 2024 B
+# GroupA_NetworkProject-CSCK541 Software Development in Practice March 2024 B - University of Liverpool
 # About This Project: Client/Server Network System
 
 ## Overview
