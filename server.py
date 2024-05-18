@@ -11,6 +11,9 @@ port = 8000
 # Ask user for printing or saving preference
 print_or_save = input("If you want to print select 1, if you want to save select 2, if you want to print and save select 3")
 
+# Set the PRINT_OR_SAVE environment variable
+os.environ["PRINT_OR_SAVE"] = print_or_save
+
 # Map user input
 if print_or_save == "1":
    print_or_save = "print"
