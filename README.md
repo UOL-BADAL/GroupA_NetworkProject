@@ -48,3 +48,27 @@ Welcome to the Client/Server Network System project! This project demonstrates a
 2. Install Dependencies:
    ```bash
    pip install -r requirements.txt
+
+3. Start the server:
+   ```bash
+   python server.py
+
+4. Run the Client:
+   ```bash
+   python client.py
+
+
+## Usage
+
+- Follow the prompts in the client application to select the serialisation format and encryption option.
+- The server will handle the received data based on the configuration set at startup.
+
+## Testing
+
+- **Unit Tests**: Ensure the correctness of individual components.
+- **Feature Tests**: Validate the end-to-end functionality of the system.
+
+5. Run the tests using:
+   ```bash
+   pytest
+
