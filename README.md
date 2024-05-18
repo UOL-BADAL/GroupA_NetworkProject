@@ -1,9 +1,16 @@
-# GroupA_NetworkProject
+# GroupA_NetworkProject-CSCK541 Software Development in Practice March 2024 B
 # About This Project: Client/Server Network System
 
 ## Overview
 
 Welcome to the Client/Server Network System project! This project demonstrates a simple client/server architecture where the client application can create, serialise, and optionally encrypt data before sending it to the server. The server then processes the received data, providing options to either print it to the console or save it to a file.
+
+
+## Participants:
+- Azhar Shaheer Badal
+- Chit Wui Lam
+- Caitlin Jane Eldridge
+- Jose Arturo Vega Lopez
 
 ## Features
 
@@ -38,37 +45,6 @@ Welcome to the Client/Server Network System project! This project demonstrates a
    git clone https://github.com/your-repo/client-server-network-system.git
    cd client-server-network-system
 
-
-
 2. Install Dependencies:
    ```bash
    pip install -r requirements.txt
-
-
-3.Start the Server:
-  ```bash
-  python server.py
-
-
-4.Run the Client:
-  ```bash
-  python client.py
-
-
-- ##Usage
-
-- Follow the prompts in the client application to select the serialisation format and encryption option.
-- The server will handle the received data based on the configuration set at startup.
-
-- ##Testing
-
-- **Unit Tests**: Ensure the correctness of individual components.
-- **Feature Tests**: Validate the end-to-end functionality of the system.
-
-
-
-
-
-Run the tests using:
-```bash
-pytest
