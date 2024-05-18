@@ -21,6 +21,9 @@ Welcome to the Client/Server Network System project! This project demonstrates a
 
 ## Architecture
 
+- **Dictionary**:
+  - my_dict = {"artist_name": "Rihanna", "real_name": "Robyn Rihanna Fenty", "nationality": "Barbadian", "age": 36} 
+
 - **Client Application (`client.py`)**:
   - Creates and serialises a dictionary.
   - Optionally encrypts a text file.
