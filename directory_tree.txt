@@ -3,11 +3,11 @@ utils/
 ├── file_handler.py
 ├── serialiser.py
 ├── .gitignore
-├── Unit test result snippet.jpg
 ├── FeatureTest.docx
 ├── LICENSE
 ├── README.md
 ├── Software Architecture.docx
+├── Unit test result snippet.jpg
 ├── client.py
 ├── client_file.txt
 ├── directory_tree.txt
