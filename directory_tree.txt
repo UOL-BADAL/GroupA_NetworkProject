@@ -1,7 +1,8 @@
-utils/
-├── encrypter.py
-├── file_handler.py
-├── serialiser.py
+.
+├── utils
+│   ├── encrypter.py
+│   ├── file_handler.py
+│   └── serialiser.py
 ├── .gitignore
 ├── FeatureTest.docx
 ├── LICENSE
