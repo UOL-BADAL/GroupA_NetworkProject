@@ -1,14 +1,20 @@
-
-utils/
+github_utils/
+├── utils/
+│   ├── content_loaded/
 ├── encrypter.py
 ├── file_handler.py
 ├── serialiser.py
 ├── .gitignore
+├── Unit test result snippet.jpg
+├── FeatureTest.docx
 ├── LICENSE
 ├── README.md
+├── Software Architecture.docx
 ├── client.py
 ├── client_file.txt
+├── directory_tree.txt
 ├── requirements.txt
 ├── server.py
 ├── server_file_dict.txt
-└── server_file_text.txt
+├── server_file_text.txt
+└── unit_test_server.py
