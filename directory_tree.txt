@@ -1,6 +1,4 @@
-github_utils/
-├── utils/
-│   ├── content_loaded/
+utils/
 ├── encrypter.py
 ├── file_handler.py
 ├── serialiser.py
